@@ -1,0 +1,6 @@
+project: code-terror/image-gif
+target: decode
+
+cmds:
+  - cmd: ./decode
+    libfuzzer: true
